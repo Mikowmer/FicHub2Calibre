@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Calibre/.idea/Calibre.iml" filepath="$PROJECT_DIR$/../Calibre/.idea/Calibre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FicHub2Calibre.iml" filepath="$PROJECT_DIR$/.idea/FicHub2Calibre.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+FicHub 2 Calibre
+===========================
+
+Created by Mikowmer
+
+Requires calibre >= 0.7.53
+
