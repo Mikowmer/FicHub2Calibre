@@ -4,6 +4,7 @@ from shutil import rmtree, copytree
 
 from os import walk
 from os.path import join
+import pathlib
 
 
 def main():
@@ -30,8 +31,9 @@ def main():
 
     with ZipFile("FicHub2Calibre.zip", "w") as zipit:
         for root, directory, files in walk("./FicHub2Calibre"):
+            short_root = pathlib.Path(*pathlib.Path(root).parts[2:])
             for file in files:
-                zipit.write(join(root, file))
+                zipit.write(join(root, file), arcname=join(short_root, file))
 
 
 if __name__ == '__main__':

@@ -16,7 +16,7 @@ class FicHub2CalibreBase(InterfaceActionBase):
     supported_platforms = ['windows', 'osx', 'linux']
     author = 'Mikowmer'
     version = (0, 0, 1)
-    minimum_calibre_version = (0, 7, 53)
+    minimum_calibre_version = (6, 2, 0)
 
     #  This field defines the GUI plugin class that contains all the code
     #  that actually does something. Its format is module_path:class_name
